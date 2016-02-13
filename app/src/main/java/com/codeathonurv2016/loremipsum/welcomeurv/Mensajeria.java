@@ -1,5 +1,6 @@
 package com.codeathonurv2016.loremipsum.welcomeurv;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -91,8 +92,34 @@ public class Mensajeria extends AppCompatActivity
 
         }
 
+
+
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
+    }
+
+    public void lanzarFormWelcome(View view) {
+        Intent i = new Intent(this, FormWelcome.class );
+        i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+        startActivity(i);
+    }
+
+    public void lanzarMapas(View view) {
+        Intent i = new Intent(this, MapsActivity.class );
+        i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+        startActivity(i);
+    }
+
+    public void lanzarMensajeria(View view) {
+        Intent i = new Intent(this, Mensajeria.class );
+        i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+        startActivity(i);
+    }
+
+    public void lanzarSettings(View view) {
+        Intent i = new Intent(this, Settings.class );
+        i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+        startActivity(i);
     }
 }
