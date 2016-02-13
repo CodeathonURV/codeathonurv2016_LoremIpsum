@@ -97,7 +97,8 @@
         android:layout_below="@+id/editText4"
         android:layout_alignBottom="@+id/editText5"
         android:layout_toEndOf="@+id/editText5"
-        android:layout_toRightOf="@+id/editText5" />
+        android:layout_toRightOf="@+id/editText5"
+        android:onClick="botoinfo" />
 
     <Spinner
         android:layout_width="match_parent"
@@ -107,9 +108,15 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
    <Button
-       android:layout_width="wrap_content"
-       android:layout_height="wrap_content"
-       android:text="Ingore"
-       android:layout_alignParentLeft="true"
-       android:layout_alignParentBottom="true"/>
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Ingore"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentBottom="true"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"/>
 </RelativeLayout>
