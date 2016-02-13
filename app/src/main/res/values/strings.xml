@@ -12,6 +12,17 @@
     <string name="BienvenidaMain">Benvinguts a WelcomeURV</string>
     <string name="TextBenvinguda">Text de exemple de benvinguda a la URV, aqui podras trobar informacio de la URV, tan
                                     per arribar a les facultats o ajuda als estudiants de erasmus</string>
-    <string name="title_activity_mensajeria">Mensajeria</string>
+
+    <!-- STRINGS MENUS -->
+    <string name="menuMaps">Maps</string>
+    <string name="menuTution">Tution</string>
+    <string name="menuSchedule">Schedule</string>
+    <string name="menuContacts">Contacts</string>
+    <string name="menuVolunteers">Volunteers</string>
+    <string name="menuSettings">Settings</string>
+    <string name="menuLogin">Login</string>
+    <string name="menuLogout">Logout</string>
+
+
 
 </resources>
