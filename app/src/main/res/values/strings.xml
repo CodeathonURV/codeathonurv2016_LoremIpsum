@@ -24,7 +24,7 @@
     <string name="menuMoodle">Moodle</string>
     <string name="menuLogin">Login</string>
     <string name="menuLogout">Logout</string>
-
+    <string name="questionmark" translatable="false">"?"</string>
 
 
 </resources>
