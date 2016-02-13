@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="campus">
+        <item>Campus Sescelades</item>
+        <item>Campus Catalunya</item>
+        <item>Campus Bellisens</item>
+    </string-array>
+    <string-array name="facultats">
+        <item>Not sure</item>
+        <item>ETSE</item>
+        <item>ETSEQ</item>
+        <item>Medicina</item>
+        <item>Enologia</item>
+    </string-array>
+
+</resources>
