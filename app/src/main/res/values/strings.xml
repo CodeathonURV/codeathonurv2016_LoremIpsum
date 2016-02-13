@@ -8,4 +8,10 @@
     <string name="title_activity_form_welcome">FormWelcome</string>
     <string name="title_activity_settings">Settings</string>
     <string name="title_activity_maps">Map</string>
+
+    <string name="BienvenidaMain">Benvinguts a WelcomeURV</string>
+    <string name="TextBenvinguda">Text de exemple de benvinguda a la URV, aqui podras trobar informacio de la URV, tan
+                                    per arribar a les facultats o ajuda als estudiants de erasmus</string>
+
+
 </resources>
