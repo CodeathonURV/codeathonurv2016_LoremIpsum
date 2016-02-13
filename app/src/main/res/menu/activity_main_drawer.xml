@@ -7,6 +7,10 @@
             android:icon="@drawable/ic_menu_camera"
             android:title="@string/menuMaps" />
         <item
+            android:id="@+id/menuNews"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menuNoticias" />
+        <item
             android:id="@+id/menuTution"
             android:icon="@drawable/ic_menu_gallery"
             android:title="@string/menuTution" />
@@ -22,6 +26,10 @@
             android:id="@+id/menuVolunteers"
             android:icon="@drawable/ic_menu_slideshow"
             android:title="@string/menuVolunteers" />
+        <item
+            android:id="@+id/menuMoodle"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menuMoodle" />
         <item
             android:id="@+id/menuSettings"
             android:icon="@drawable/ic_menu_manage"

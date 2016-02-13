@@ -77,15 +77,19 @@ public class MainActivity extends AppCompatActivity
             // Handle the camera action
         } else if (id == R.id.menuTution) {
 
+        } else if (id == R.id.menuNews) {
+
         } else if (id == R.id.menuSchedule) {
 
         } else if (id == R.id.menuContacts) {
 
         } else if (id == R.id.menuVolunteers) {
 
+        } else if (id == R.id.menuMoodle) {
+
         } else if (id == R.id.menuSettings) {
 
-        }else if (id == R.id.menuLogin) {
+        } else if (id == R.id.menuLogin) {
 
         }
 

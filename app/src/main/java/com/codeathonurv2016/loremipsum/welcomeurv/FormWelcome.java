@@ -72,17 +72,23 @@ public class FormWelcome extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_camera) {
+        if (id == R.id.menuMaps) {
             // Handle the camera action
-        } else if (id == R.id.nav_gallery) {
+        } else if (id == R.id.menuTution) {
 
-        } else if (id == R.id.nav_slideshow) {
+        } else if (id == R.id.menuNews) {
 
-        } else if (id == R.id.nav_manage) {
+        } else if (id == R.id.menuSchedule) {
 
-        } else if (id == R.id.nav_share) {
+        } else if (id == R.id.menuContacts) {
 
-        } else if (id == R.id.nav_send) {
+        } else if (id == R.id.menuVolunteers) {
+
+        } else if (id == R.id.menuMoodle) {
+
+        } else if (id == R.id.menuSettings) {
+
+        } else if (id == R.id.menuLogin) {
 
         }
 
