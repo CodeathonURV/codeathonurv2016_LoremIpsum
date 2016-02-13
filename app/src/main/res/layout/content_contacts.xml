@@ -12,4 +12,17 @@
     tools:context="com.codeathonurv2016.loremipsum.welcomeurv.Contacts"
     tools:showIn="@layout/app_bar_contacts">
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView2"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" >
+
+        <ListView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/listView" />
+    </ScrollView>
 </RelativeLayout>
