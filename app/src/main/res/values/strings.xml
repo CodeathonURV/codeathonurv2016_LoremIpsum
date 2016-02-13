@@ -9,9 +9,9 @@
     <string name="title_activity_settings">Settings</string>
     <string name="title_activity_maps">Map</string>
 
-    <string name="BienvenidaMain">Benvinguts a WelcomeURV</string>
-    <string name="TextBenvinguda">Text de exemple de benvinguda a la URV, aqui podras trobar informacio de la URV, tan
-                                    per arribar a les facultats o ajuda als estudiants de erasmus</string>
+    <string name="BienvenidaMain">Welcome to WelcomeURV</string>
+    <string name="TextBenvinguda">Text example URV welcome , here you can find information of the URV, as
+                                    to reach schools or help Erasmus students</string>
 
 
     <!-- STRINGS MENUS -->
@@ -27,6 +27,7 @@
     <string name="menuLogout">Logout</string>
     <string name="questionmark">"?"</string>
     <string name="submit">Submit</string>
+    <string name="title_activity_volunteers">Volunteers</string>
 
 
 </resources>
