@@ -12,6 +12,6 @@
     <string name="BienvenidaMain">Benvinguts a WelcomeURV</string>
     <string name="TextBenvinguda">Text de exemple de benvinguda a la URV, aqui podras trobar informacio de la URV, tan
                                     per arribar a les facultats o ajuda als estudiants de erasmus</string>
-
+    <string name="title_activity_mensajeria">Mensajeria</string>
 
 </resources>
