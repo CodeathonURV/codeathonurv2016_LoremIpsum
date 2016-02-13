@@ -112,7 +112,8 @@
     android:layout_height="wrap_content"
     android:text="Ingore"
     android:layout_alignParentLeft="true"
-    android:layout_alignParentBottom="true"/>
+    android:layout_alignParentBottom="true"
+       android:onClick="ignore" />
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

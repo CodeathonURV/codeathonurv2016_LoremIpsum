@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
+import android.support.v7.app.AlertDialog;
 import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -145,5 +146,16 @@ public class FormWelcome extends AppCompatActivity
                 R.array.facultats, android.R.layout.simple_spinner_item);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spinner.setAdapter(adapter);
+    }
+    public void ignore(View view){
+        finish();
+    }
+    public void botoinfo(View view){
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setTitle("Info");
+        builder.setMessage("Your username is your ID card number, your password is your birth date in format dd-MMM-aa");
+        builder.setPositiveButton("OK",null);
+        builder.create();
+        builder.show();
     }
 }
