@@ -26,6 +26,7 @@
     <string name="menuLogin">Login</string>
     <string name="menuLogout">Logout</string>
     <string name="questionmark">"?"</string>
+    <string name="submit">Submit</string>
 
 
 </resources>
