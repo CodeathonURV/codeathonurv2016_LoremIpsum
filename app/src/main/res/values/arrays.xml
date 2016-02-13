@@ -12,5 +12,18 @@
         <item>Medicina</item>
         <item>Enologia</item>
     </string-array>
-
+    <string-array name="idiomes">
+        <item>Catalan</item>
+        <item>English</item>
+        <item>Spanish</item>
+        <item>German</item>
+        <item>Italian</item>
+    </string-array>
+    <string-array name="mostra">
+        <item>Pepito</item>
+        <item>John</item>
+        <item>Alex</item>
+        <item>Steve</item>
+        <item>Andy</item>
+    </string-array>
 </resources>
