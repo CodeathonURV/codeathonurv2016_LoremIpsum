@@ -5,31 +5,38 @@
         <item
             android:id="@+id/menuMaps"
             android:icon="@drawable/ic_menu_camera"
-            android:title="@string/menuMaps" />
+            android:title="@string/menuMaps"
+            android:onClick="lanzarMapas"/>
         <item
             android:id="@+id/menuNews"
             android:icon="@drawable/ic_menu_slideshow"
-            android:title="@string/menuNoticias" />
+            android:title="@string/menuNoticias"
+            android:onClick="lanzarNews"/>
         <item
             android:id="@+id/menuTution"
             android:icon="@drawable/ic_menu_gallery"
-            android:title="@string/menuTution" />
+            android:title="@string/menuTution"
+            android:onClick="lanzarTution"/>
         <item
             android:id="@+id/menuContacts"
             android:icon="@drawable/ic_menu_slideshow"
-            android:title="@string/menuContacts" />
+            android:title="@string/menuContacts"
+            android:onClick="lanzarContacts"/>
         <item
             android:id="@+id/menuSchedule"
             android:icon="@drawable/ic_menu_slideshow"
-            android:title="@string/menuSchedule" />
+            android:title="@string/menuSchedule"
+            android:onClick="lanzarSchedule"/>
         <item
             android:id="@+id/menuVolunteers"
             android:icon="@drawable/ic_menu_slideshow"
-            android:title="@string/menuVolunteers" />
+            android:title="@string/menuVolunteers"
+            android:onClick="lanzarVolunteers"/>
         <item
             android:id="@+id/menuMoodle"
             android:icon="@drawable/ic_menu_slideshow"
-            android:title="@string/menuMoodle" />
+            android:title="@string/menuMoodle"
+            android:onClick="lanzarMoodle"/>
         <item
             android:id="@+id/menuSettings"
             android:icon="@drawable/ic_menu_manage"
@@ -37,7 +44,8 @@
         <item
             android:id="@+id/menuLogin"
             android:icon="@drawable/ic_menu_slideshow"
-            android:title="@string/menuLogin" />
+            android:title="@string/menuLogin"
+            android:onClick="LanzarLogin"/>
     </group>
 
 </menu>
