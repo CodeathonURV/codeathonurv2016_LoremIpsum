@@ -88,6 +88,9 @@ public class FormWelcome extends AppCompatActivity
         } else if (id == R.id.menuSchedule) {
 
         } else if (id == R.id.menuContacts) {
+            Intent i = new Intent(this, Contacts.class );
+            i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+            startActivity(i);
 
         } else if (id == R.id.menuVolunteers) {
 
