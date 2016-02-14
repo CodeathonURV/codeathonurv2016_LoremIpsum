@@ -8,10 +8,10 @@
          location permissions for the 'MyLocation' functionality. 
     -->
     <permission
-        android:name="com.codeathonurv2016.loremipsum.welcomeurv.permission.MAPS_RECEIVE"
+        android:name="com.example.dhuiberica.mamanatura01.permission.MAPS_RECEIVE"
         android:protectionLevel="signature" />
 
-    <uses-permission android:name="com.codeathonurv2016.loremipsum.welcomeurv.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="com.example.dhuiberica.mamanatura01.permission.MAPS_RECEIVE" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
@@ -65,7 +65,7 @@
         </activity>
         <activity
             android:name=".MapsActivity"
-            android:theme="@android:style/Theme.NoTitleBar">
+            android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="com.codeathonurv2016.loreipsum.welcomeurv.MapsActivity" />
 
@@ -96,8 +96,7 @@
         <activity
             android:name=".Volunteers"
             android:label="@string/title_activity_volunteers"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".ImagenUrv"></activity>
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
