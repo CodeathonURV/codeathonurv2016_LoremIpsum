@@ -89,8 +89,9 @@ public class MainActivity extends AppCompatActivity
 
         if (id == R.id.menuMaps) {
            startActivity(new Intent(this,MapsActivity.class));
+
         } else if (id == R.id.menuTution) {
-            Intent i = new Intent(this, MapsActivity.class );
+            Intent i = new Intent(this, Tution.class );
             i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
             startActivity(i);
 
