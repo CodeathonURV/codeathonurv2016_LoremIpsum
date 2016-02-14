@@ -4,47 +4,47 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/menuMaps"
-            android:icon="@drawable/ic_menu_camera"
+            android:icon="@drawable/map30"
             android:title="@string/menuMaps" />
         <item
             android:id="@+id/menuNews"
-            android:icon="@drawable/ic_menu_slideshow"
+            android:icon="@drawable/newspaper1"
             android:title="@string/menuNoticias" />
         <item
             android:id="@+id/menuEvents"
-            android:icon="@drawable/ic_menu_slideshow"
+            android:icon="@drawable/election"
             android:title="Events" />
         <item
             android:id="@+id/menuTution"
-            android:icon="@drawable/ic_menu_gallery"
+            android:icon="@drawable/text70"
             android:title="@string/menuTution" />
         <item
             android:id="@+id/menuContacts"
-            android:icon="@drawable/ic_menu_slideshow"
+            android:icon="@drawable/business133"
             android:title="@string/menuContacts" />
         <item
             android:id="@+id/menuSchedule"
-            android:icon="@drawable/ic_menu_slideshow"
+            android:icon="@drawable/wallclock"
             android:title="@string/menuSchedule" />
         <item
             android:id="@+id/menuVolunteers"
-            android:icon="@drawable/ic_menu_slideshow"
+            android:icon="@drawable/leaf14"
             android:title="@string/menuVolunteers" />
         <item
             android:id="@+id/menuMoodle"
-            android:icon="@drawable/ic_menu_slideshow"
+            android:icon="@drawable/books8"
             android:title="@string/menuMoodle" />
         <item
             android:id="@+id/menuMoute"
-            android:icon="@drawable/ic_menu_slideshow"
+            android:icon="@drawable/vehicle12"
             android:title="@string/menuMoute" />
         <item
             android:id="@+id/menuSettings"
-            android:icon="@drawable/ic_menu_manage"
+            android:icon="@drawable/settings48"
             android:title="@string/menuSettings" />
         <item
             android:id="@+id/menuLogin"
-            android:icon="@drawable/ic_menu_slideshow"
+            android:icon="@drawable/web38"
             android:title="@string/menuLogin" />
     </group>
 
