@@ -33,7 +33,8 @@
     <string name="title_activity_volunteers">Volunteers</string>
     <string name="title_activity_tution">Tution</string>
     <string name="title_activity_useful__information">useful_Information</string>
-    <string name="volunteers">Make me volunteer</string>
+    <string name="makeVolunteers">Make me volunteer</string>
+    <string name="searchVolunteers">Search volunteers</string>
 
 
     <!-- STRINGS MATRICULA -->

@@ -122,4 +122,6 @@ public class Contacts extends AppCompatActivity
         drawer.closeDrawer(GravityCompat.START);
         return true;
     }
+    //mostra llista voluntaris
+    public void llistaVoluntaris(View view){}
 }

@@ -31,6 +31,7 @@
         android:layout_height="wrap_content"
         android:text="@string/submit"
         android:id="@+id/butSend"
-        android:layout_weight="1" />
+        android:layout_weight="1"
+        android:onClick="escriure" />
 
 </LinearLayout>
