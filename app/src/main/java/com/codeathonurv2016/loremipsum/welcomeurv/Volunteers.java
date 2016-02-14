@@ -13,6 +13,10 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.ArrayAdapter;
+import android.widget.ListView;
+
+import java.util.ArrayList;
 
 public class Volunteers extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -105,5 +109,14 @@ public class Volunteers extends AppCompatActivity
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
+    }
+    //mostra llista voluntaris
+    public void llistaVoluntaris(View view){
+        ListView list= (ListView)findViewById(R.id.listMessage);
+        ArrayList<String> text =new ArrayList<>();
+        ArrayAdapter<String> adapter = new ArrayAdapter<>(this,android.R.layout.simple_list_item_1, text);
+        list.setAdapter(adapter);
+        text.add("Joan");
+        text.add("Marc");
     }
 }

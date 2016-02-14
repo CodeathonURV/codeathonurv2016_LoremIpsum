@@ -14,9 +14,12 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
 import android.widget.ListAdapter;
 import android.widget.ListView;
 import android.widget.SimpleAdapter;
+
+import java.util.ArrayList;
 
 public class Contacts extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -122,6 +125,4 @@ public class Contacts extends AppCompatActivity
         drawer.closeDrawer(GravityCompat.START);
         return true;
     }
-    //mostra llista voluntaris
-    public void llistaVoluntaris(View view){}
 }
