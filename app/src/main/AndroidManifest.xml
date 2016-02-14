@@ -8,7 +8,6 @@
          location permissions for the 'MyLocation' functionality. 
     -->
 
-
     <permission
         android:name="com.codeathonurv2016.loremipsum.welcomeurv.permission.MAPS_RECEIVE"
         android:protectionLevel="signature" />
@@ -21,6 +20,8 @@
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+
 
     <application
         android:allowBackup="true"
@@ -98,11 +99,18 @@
         <activity
             android:name=".Volunteers"
             android:label="@string/title_activity_volunteers"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Browser" />
+
+        <activity
+            android:name=".Schedule"
+            android:label="@string/title_activity_schedule"
             android:theme="@style/AppTheme.NoActionBar"></activity>
+
+        <activity
+            android:name=".ImagenUrv"
+            android:theme="@style/AppTheme.NoActionBar" />
+
     </application>
-    <activity
-        android:name=".ImagenUrv"
-        android:theme="@style/AppTheme.NoActionBar">
-    </activity>
 
 </manifest>
