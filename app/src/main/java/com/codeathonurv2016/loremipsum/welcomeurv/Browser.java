@@ -14,7 +14,7 @@ public class Browser extends AppCompatActivity {
         setContentView(R.layout.activity_browser);
 
         mWebView = (WebView) findViewById(R.id.webView);
-        // activar javacrip
+        // activar javacript
         WebSettings webSettings = mWebView.getSettings();
         webSettings.setJavaScriptEnabled(true);
 
