@@ -21,8 +21,6 @@
     <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
-
-
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -101,16 +99,17 @@
             android:label="@string/title_activity_volunteers"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".Browser" />
-
         <activity
             android:name=".Schedule"
             android:label="@string/title_activity_schedule"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
-
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".ImagenUrv"
             android:theme="@style/AppTheme.NoActionBar" />
-
+        <activity
+            android:name=".Events"
+            android:label="@string/title_activity_events"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
