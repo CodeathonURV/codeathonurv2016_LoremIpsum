@@ -16,7 +16,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="New Text"
+        android:text="@string/labelMatricula"
         android:id="@+id/textView7"
         android:layout_marginBottom="10dp"
         android:layout_alignParentTop="true"
@@ -26,7 +26,7 @@
     <CheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="New CheckBox"
+        android:text="@string/matricula1"
         android:id="@+id/checkBox2"
         android:layout_alignParentStart="true"
         android:layout_below="@+id/checkBox3"
@@ -35,7 +35,7 @@
     <CheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="New CheckBox"
+        android:text="@string/matricula2"
         android:id="@+id/checkBox3"
         android:layout_alignParentStart="true"
         android:layout_below="@+id/checkBox4"
@@ -44,7 +44,7 @@
     <CheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="New CheckBox"
+        android:text="@string/matricula3"
         android:id="@+id/checkBox4"
         android:layout_alignParentStart="true"
         android:layout_below="@+id/checkBox5"
@@ -53,7 +53,7 @@
     <CheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="New CheckBox"
+        android:text="@string/matricula4"
         android:id="@+id/checkBox5"
         android:layout_below="@+id/checkBox7"
         android:layout_alignParentLeft="true"
@@ -62,18 +62,10 @@
     <CheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="New CheckBox"
+        android:text="@string/matricula5"
         android:id="@+id/checkBox6"
         android:layout_below="@+id/textView7"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
-    <CheckBox
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="New CheckBox"
-        android:id="@+id/checkBox7"
-        android:layout_below="@+id/checkBox6"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
 </LinearLayout>
