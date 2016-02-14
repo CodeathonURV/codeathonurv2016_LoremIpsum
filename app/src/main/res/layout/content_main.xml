@@ -20,17 +20,50 @@
         android:id="@+id/TextoTituloBienvenida"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:textSize="@dimen/abc_text_size_display_1_material"
+        android:textSize="@dimen/fab_margin"
         android:textStyle="bold"
         android:textAlignment="center" />
-
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/TextBenvinguda"
-        android:id="@+id/introduccion"
-        android:layout_centerVertical="true"
+        android:text= "News"
+        android:id="@+id/textonoticias"
         android:layout_centerHorizontal="true"
-        android:textAlignment="center"/>
+        android:textSize="@dimen/abc_text_size_display_1_material"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_below="@id/TextoTituloBienvenida"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textonoticias">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/titol1"
+                android:text="Erasmus 2017"
+                android:textStyle="bold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/text1"
+            android:layout_below="@+id/titol1"
+            android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris a augue non metus commodo lacinia. Praesent eget blandit metus, vel pharetra orci. Sed non faucibus nunc, at suscipit ex. Duis placerat lorem eget metus commodo, eu gravida magna tempus. Nam sagittis orci auctor libero suscipit dictum. Phasellus eget felis lacinia, eleifend nunc eget, tristique mi. Nulla quis risus augue. Morbi viverra posuere sodales. Sed dictum ac arcu quis consectetur. Pellentesque leo arcu, fringilla nec suscipit eu, tempus nec sapien. Donec suscipit, ligula et cursus aliquet, neque diam gravida mauris, in congue turpis urna eget lectus. Cras laoreet dolor magna, eget pulvinar nisi gravida a."/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/text2"
+            android:layout_below="@id/text1"
+            android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris a augue non metus commodo lacinia. Praesent eget blandit metus, vel pharetra orci. Sed non faucibus nunc, at suscipit ex. Duis placerat lorem eget metus commodo, eu gravida magna tempus. Nam sagittis orci auctor libero suscipit dictum. Phasellus eget felis lacinia, eleifend nunc eget, tristique mi. Nulla quis risus augue. Morbi viverra posuere sodales. Sed dictum ac arcu quis consectetur. Pellentesque leo arcu, fringilla nec suscipit eu, tempus nec sapien. Donec suscipit, ligula et cursus aliquet, neque diam gravida mauris, in congue turpis urna eget lectus. Cras laoreet dolor magna, eget pulvinar nisi gravida a."/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text2"
+            android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris a augue non metus commodo lacinia. Praesent eget blandit metus, vel pharetra orci. Sed non faucibus nunc, at suscipit ex. Duis placerat lorem eget metus commodo, eu gravida magna tempus. Nam sagittis orci auctor libero suscipit dictum. Phasellus eget felis lacinia, eleifend nunc eget, tristique mi. Nulla quis risus augue. Morbi viverra posuere sodales. Sed dictum ac arcu quis consectetur. Pellentesque leo arcu, fringilla nec suscipit eu, tempus nec sapien. Donec suscipit, ligula et cursus aliquet, neque diam gravida mauris, in congue turpis urna eget lectus. Cras laoreet dolor magna, eget pulvinar nisi gravida a."/>
+        </RelativeLayout>
+    </ScrollView>
 
 </RelativeLayout>
