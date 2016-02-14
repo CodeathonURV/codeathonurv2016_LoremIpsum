@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menuMaps"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menuMaps" />
+        <item
+            android:id="@+id/menuNews"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menuNoticias" />
+        <item
+            android:id="@+id/menuEvents"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Events" />
+        <item
+            android:id="@+id/menuTution"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/menuTution" />
+        <item
+            android:id="@+id/menuContacts"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menuContacts" />
+        <item
+            android:id="@+id/menuSchedule"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menuSchedule" />
+        <item
+            android:id="@+id/menuVolunteers"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menuVolunteers" />
+        <item
+            android:id="@+id/menuMoodle"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menuMoodle" />
+        <item
+            android:id="@+id/menuMoute"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menuMoute" />
+        <item
+            android:id="@+id/menuSettings"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/menuSettings" />
+        <item
+            android:id="@+id/menuLogin"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menuLogin" />
+    </group>
+
+</menu>

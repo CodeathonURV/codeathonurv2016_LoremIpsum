@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.codeathonurv2016.loremipsum.welcomeurv.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text= "@string/BienvenidaMain"
+        android:id="@+id/TextoTituloBienvenida"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/fab_margin"
+        android:textStyle="bold"
+        android:textAlignment="center" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text= "News"
+        android:id="@+id/textonoticias"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/abc_text_size_display_1_material"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_below="@id/TextoTituloBienvenida"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textonoticias">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/titol1"
+                android:text="Erasmus 2017"
+                android:textStyle="bold"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/text1"
+                android:layout_below="@+id/titol1"
+                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris a augue non metus commodo lacinia. Praesent eget blandit metus, vel pharetra orci. Sed non faucibus nunc, at suscipit ex. Duis placerat lorem eget metus commodo, eu gravida magna tempus. Nam sagittis orci auctor libero suscipit dictum. Phasellus eget felis lacinia, eleifend nunc eget, tristique mi. Nulla quis risus augue. Morbi viverra posuere sodales. Sed dictum ac arcu quis consectetur. Pellentesque leo arcu, fringilla nec suscipit eu, tempus nec sapien. Donec suscipit, ligula et cursus aliquet, neque diam gravida mauris, in congue turpis urna eget lectus. Cras laoreet dolor magna, eget pulvinar nisi gravida a."/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/imatgemenu"
+                android:layout_below="@id/text1"
+                android:id="@+id/imatge1"
+                android:layout_centerHorizontal="true"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/titol2"
+                android:text="URV Codeathon 2016!"
+                android:layout_below="@id/imatge1"
+                android:textStyle="bold"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/text2"
+                android:layout_below="@id/titol2"
+                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris a augue non metus commodo lacinia. Praesent eget blandit metus, vel pharetra orci. Sed non faucibus nunc, at suscipit ex. Duis placerat lorem eget metus commodo, eu gravida magna tempus. Nam sagittis orci auctor libero suscipit dictum. Phasellus eget felis lacinia, eleifend nunc eget, tristique mi. Nulla quis risus augue. Morbi viverra posuere sodales. Sed dictum ac arcu quis consectetur. Pellentesque leo arcu, fringilla nec suscipit eu, tempus nec sapien. Donec suscipit, ligula et cursus aliquet, neque diam gravida mauris, in congue turpis urna eget lectus. Cras laoreet dolor magna, eget pulvinar nisi gravida a."/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/imatgemenu2"
+                android:layout_below="@id/text2"
+                android:id="@+id/imatge2"
+                android:layout_centerHorizontal="true"/>
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>
+

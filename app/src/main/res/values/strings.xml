@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">WelcomeURV</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_form_welcome">FormWelcome</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_maps">Map</string>
+
+    <string name="BienvenidaMain">Welcome to WelcomeURV</string>
+    <string name="TextBenvinguda">Text example URV welcome , here you can find information of the URV, as
+                                    to reach schools or help Erasmus students</string>
+
+
+    <!-- STRINGS MENUS -->
+    <string name="menuMaps">Maps</string>
+    <string name="menuTution">Tution</string>
+    <string name="menuSchedule">Schedule</string>
+    <string name="menuContacts">Contacts</string>
+    <string name="menuVolunteers">Volunteers</string>
+    <string name="menuSettings">Settings</string>
+    <string name="menuNoticias">News</string>
+    <string name="menuMoodle">Moodle</string>
+    <string name="menuLogin">Login</string>
+    <string name="menuLogout">Logout</string>
+    <string name="menuMoute">Public transport</string>
+
+    <!-- OTRAS STRINGS -->
+    <string name="questionmark">"?"</string>
+    <string name="submit">Submit</string>
+    <string name="title_activity_volunteers">Volunteers</string>
+    <string name="title_activity_tution">Tution</string>
+    <string name="title_activity_useful__information">useful_Information</string>
+    <string name="makeVolunteers">Make me volunteer</string>
+    <string name="searchVolunteers">Search volunteers</string>
+
+
+    <!-- STRINGS MATRICULA -->
+    <string name="labelMatricula">"List of necessary documentation to make enrollment in the URV Erasmus: "</string>
+    <string name="matricula1">"Scanned copy of your identity card or passport."</string>
+    <string name="matricula2">Scanned copy of your european health insurance card (compulsory) and/or a copy of your medical insurance policy* (recommended).</string>
+    <string name="matricula3">A colour passport shape photograph of you.</string>
+    <string name="matricula4">Learning agreement with the subjects you wish to study in the URV, signed by you and signed and stamped by your home university.  In the case you were coming under Erasmus Training programme, you should use the model of training agreement.</string>
+    <string name="matricula5">Academic transcript of records.</string>
+    <string name="title_activity_schedule">Schedule</string>
+    <string name="title_activity_events">Events</string>
+
+
+</resources>
