@@ -63,6 +63,5 @@
         android:id="@+id/listVolunteers"
         android:layout_below="@+id/button4"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:onClick="llistaVoluntaris" />
+        android:layout_alignParentStart="true" />
 </RelativeLayout>
