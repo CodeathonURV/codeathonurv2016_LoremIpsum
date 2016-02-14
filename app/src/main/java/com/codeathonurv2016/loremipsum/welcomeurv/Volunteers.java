@@ -38,6 +38,7 @@ public class Volunteers extends AppCompatActivity
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
         list= (ListView)findViewById(R.id.listVolunteers);
+        list.setVisibility(View.INVISIBLE);
         ArrayAdapter<String> adapter = new ArrayAdapter<>(this,android.R.layout.simple_list_item_1, text);
         list.setAdapter(adapter);
     }
@@ -119,5 +120,6 @@ public class Volunteers extends AppCompatActivity
 
         text.add("Joan");
         text.add("Marc");
+        list.setVisibility(View.VISIBLE);
     }
 }
