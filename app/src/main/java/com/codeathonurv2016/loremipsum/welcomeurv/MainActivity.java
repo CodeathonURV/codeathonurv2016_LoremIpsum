@@ -122,11 +122,13 @@ public class MainActivity extends AppCompatActivity
 
         } else if (id == R.id.menuMoodle) {
             Intent i = new Intent(this, Browser.class );
+            //Se le pasa la url para que se abra en la activity de Browser
             i.putExtra("url", "http://moodle.urv.cat/moodle/");
             startActivity(i);
 
         } else if (id == R.id.menuMoute) {
             Intent i = new Intent(this, Browser.class );
+            //Se le pasa la url para que se abra en la activity de Browser
             i.putExtra("url", "http://mou-te.gencat.cat");
             startActivity(i);
 
