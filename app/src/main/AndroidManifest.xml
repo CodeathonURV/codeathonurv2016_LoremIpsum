@@ -109,7 +109,8 @@
         <activity
             android:name=".Events"
             android:label="@string/title_activity_events"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".login"></activity>
     </application>
 
 </manifest>
