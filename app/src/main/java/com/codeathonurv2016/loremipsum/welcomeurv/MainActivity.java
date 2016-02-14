@@ -17,6 +17,7 @@ import android.view.MenuItem;
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
+    public static AlmacenEventos eventos= new AlmacenEventosArray();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -87,6 +88,11 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.menuNews) {
 
 
+        }else if (id == R.id.menuEvents) {
+            Intent i = new Intent(this, Events.class );
+            i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+            startActivity(i);
+
         } else if (id == R.id.menuSchedule) {
             startActivity(new Intent(this,Schedule.class));
         } else if (id == R.id.menuContacts) {
@@ -95,6 +101,9 @@ public class MainActivity extends AppCompatActivity
             startActivity(i);
 
         } else if (id == R.id.menuVolunteers) {
+            Intent i = new Intent(this, Volunteers.class );
+            i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+            startActivity(i);
 
         } else if (id == R.id.menuMoodle) {
             Intent i = new Intent(this, Browser.class );

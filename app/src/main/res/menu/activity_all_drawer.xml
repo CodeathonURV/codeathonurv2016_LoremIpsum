@@ -11,6 +11,10 @@
             android:icon="@drawable/ic_menu_slideshow"
             android:title="@string/menuNoticias" />
         <item
+            android:id="@+id/menuEvents"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Events" />
+        <item
             android:id="@+id/menuTution"
             android:icon="@drawable/ic_menu_gallery"
             android:title="@string/menuTution" />
