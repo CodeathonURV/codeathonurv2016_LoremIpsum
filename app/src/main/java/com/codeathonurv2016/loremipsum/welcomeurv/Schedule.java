@@ -82,7 +82,9 @@ public class Schedule extends AppCompatActivity
             startActivity(i);
 
         } else if (id == R.id.menuNews) {
-
+            Intent i = new Intent(this, MainActivity.class );
+            i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+            startActivity(i);
 
         }else if (id == R.id.menuEvents) {
             Intent i = new Intent(this, Events.class );
@@ -90,7 +92,10 @@ public class Schedule extends AppCompatActivity
             startActivity(i);
 
         } else if (id == R.id.menuSchedule) {
-            startActivity(new Intent(this,Schedule.class));
+            Intent i = new Intent(this, Schedule.class );
+            i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+            startActivity(i);
+
         } else if (id == R.id.menuContacts) {
             Intent i = new Intent(this, Contacts.class );
             i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
@@ -117,6 +122,9 @@ public class Schedule extends AppCompatActivity
             startActivity(i);
 
         } else if (id == R.id.menuLogin) {
+            Intent i = new Intent(this, login.class );
+            i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+            startActivity(i);
 
         }
 

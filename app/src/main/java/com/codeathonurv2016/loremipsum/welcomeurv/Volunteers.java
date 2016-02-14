@@ -82,16 +82,26 @@ public class Volunteers extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.menuMaps) {
-            // Handle the camera action
+            startActivity(new Intent(this,MapsActivity.class));
         } else if (id == R.id.menuTution) {
             Intent i = new Intent(this, MapsActivity.class );
             i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
             startActivity(i);
 
         } else if (id == R.id.menuNews) {
+            Intent i = new Intent(this, MainActivity.class );
+            i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+            startActivity(i);
 
+        }else if (id == R.id.menuEvents) {
+            Intent i = new Intent(this, Events.class );
+            i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+            startActivity(i);
 
         } else if (id == R.id.menuSchedule) {
+            Intent i = new Intent(this, Schedule.class );
+            i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+            startActivity(i);
 
         } else if (id == R.id.menuContacts) {
             Intent i = new Intent(this, Contacts.class );
@@ -99,8 +109,19 @@ public class Volunteers extends AppCompatActivity
             startActivity(i);
 
         } else if (id == R.id.menuVolunteers) {
+            Intent i = new Intent(this, Volunteers.class );
+            i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+            startActivity(i);
 
         } else if (id == R.id.menuMoodle) {
+            Intent i = new Intent(this, Browser.class );
+            i.putExtra("url", "http://moodle.urv.cat/moodle/");
+            startActivity(i);
+
+        } else if (id == R.id.menuMoute) {
+            Intent i = new Intent(this, Browser.class );
+            i.putExtra("url", "http://mou-te.gencat.cat");
+            startActivity(i);
 
         } else if (id == R.id.menuSettings) {
             Intent i = new Intent(this, Settings.class );
@@ -108,6 +129,9 @@ public class Volunteers extends AppCompatActivity
             startActivity(i);
 
         } else if (id == R.id.menuLogin) {
+            Intent i = new Intent(this, login.class );
+            i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+            startActivity(i);
 
         }
 

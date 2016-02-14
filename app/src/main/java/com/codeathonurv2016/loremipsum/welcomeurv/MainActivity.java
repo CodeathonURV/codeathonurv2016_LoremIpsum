@@ -95,7 +95,9 @@ public class MainActivity extends AppCompatActivity
             startActivity(i);
 
         } else if (id == R.id.menuNews) {
-
+            Intent i = new Intent(this, MainActivity.class );
+            i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+            startActivity(i);
 
         }else if (id == R.id.menuEvents) {
             Intent i = new Intent(this, Events.class );
@@ -103,7 +105,10 @@ public class MainActivity extends AppCompatActivity
             startActivity(i);
 
         } else if (id == R.id.menuSchedule) {
-            startActivity(new Intent(this,Schedule.class));
+            Intent i = new Intent(this, Schedule.class );
+            i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+            startActivity(i);
+
         } else if (id == R.id.menuContacts) {
             Intent i = new Intent(this, Contacts.class );
             i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
@@ -130,35 +135,14 @@ public class MainActivity extends AppCompatActivity
             startActivity(i);
 
         } else if (id == R.id.menuLogin) {
+            Intent i = new Intent(this, login.class );
+            i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+            startActivity(i);
 
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
-    }
-
-    public void lanzarFormWelcome(View view) {
-        Intent i = new Intent(this, FormWelcome.class );
-        i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-        startActivity(i);
-    }
-
-    public void lanzarMapas(View view) {
-        Intent i = new Intent(this, MapsActivity.class );
-        i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-        startActivity(i);
-    }
-
-    public void lanzarMensajeria(View view) {
-        Intent i = new Intent(this, Mensajeria.class );
-        i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-        startActivity(i);
-    }
-
-    public void lanzarSettings(View view) {
-        Intent i = new Intent(this, Settings.class );
-        i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-        startActivity(i);
     }
 }
