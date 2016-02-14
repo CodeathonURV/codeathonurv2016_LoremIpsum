@@ -14,10 +14,15 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.ArrayAdapter;
+import android.widget.EditText;
+import android.widget.ListView;
+
+import java.util.ArrayList;
 
 public class Mensajeria extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
-
+    ArrayList<String> text=new ArrayList<>();
+    ListView list;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -32,6 +37,13 @@ public class Mensajeria extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+        list= (ListView)findViewById(R.id.listMessage);
+        ArrayAdapter<String> adapter = new ArrayAdapter<>(this,android.R.layout.simple_list_item_1, text);
+        list.setAdapter(adapter);
+        text.add("Pepito: Hola");
+        text.add("Maria: Hola");
+
+
     }
 
     @Override
@@ -131,5 +143,11 @@ public class Mensajeria extends AppCompatActivity
         Intent i = new Intent(this, Settings.class );
         i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         startActivity(i);
+    }
+    public void escriure(View view){
+
+        EditText textEntrada;
+        textEntrada=(EditText)findViewById(R.id.editMessage);
+        text.add("Maria:"+textEntrada.getText().toString());
     }
 }
