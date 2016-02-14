@@ -78,7 +78,7 @@ public class MainActivity extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.menuMaps) {
-            // Handle the camera action
+           startActivity(new Intent(this,MapsActivity.class));
         } else if (id == R.id.menuTution) {
             Intent i = new Intent(this, MapsActivity.class );
             i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
