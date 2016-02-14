@@ -37,6 +37,7 @@ public class Mensajeria extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+        //lligar listview amb array
         list= (ListView)findViewById(R.id.listMessage);
         ArrayAdapter<String> adapter = new ArrayAdapter<>(this,android.R.layout.simple_list_item_1, text);
         list.setAdapter(adapter);
@@ -144,6 +145,7 @@ public class Mensajeria extends AppCompatActivity
         i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         startActivity(i);
     }
+    //escriu text
     public void escriure(View view){
 
         EditText textEntrada;
