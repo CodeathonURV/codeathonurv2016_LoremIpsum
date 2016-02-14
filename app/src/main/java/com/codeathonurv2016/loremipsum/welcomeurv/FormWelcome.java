@@ -17,6 +17,8 @@ import android.view.MenuItem;
 import android.widget.ArrayAdapter;
 import android.widget.Spinner;
 
+import java.util.Map;
+
 public class FormWelcome extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
@@ -83,8 +85,12 @@ public class FormWelcome extends AppCompatActivity
         if (id == R.id.menuMaps) {
             // Handle the camera action
         } else if (id == R.id.menuTution) {
+            Intent i = new Intent(this, MapsActivity.class );
+            i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+            startActivity(i);
 
         } else if (id == R.id.menuNews) {
+
 
         } else if (id == R.id.menuSchedule) {
 
@@ -98,6 +104,9 @@ public class FormWelcome extends AppCompatActivity
         } else if (id == R.id.menuMoodle) {
 
         } else if (id == R.id.menuSettings) {
+            Intent i = new Intent(this, Settings.class );
+            i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+            startActivity(i);
 
         } else if (id == R.id.menuLogin) {
 

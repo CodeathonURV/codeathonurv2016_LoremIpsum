@@ -80,18 +80,28 @@ public class MainActivity extends AppCompatActivity
         if (id == R.id.menuMaps) {
             // Handle the camera action
         } else if (id == R.id.menuTution) {
+            Intent i = new Intent(this, MapsActivity.class );
+            i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+            startActivity(i);
 
         } else if (id == R.id.menuNews) {
+
 
         } else if (id == R.id.menuSchedule) {
 
         } else if (id == R.id.menuContacts) {
+            Intent i = new Intent(this, Contacts.class );
+            i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+            startActivity(i);
 
         } else if (id == R.id.menuVolunteers) {
 
         } else if (id == R.id.menuMoodle) {
 
         } else if (id == R.id.menuSettings) {
+            Intent i = new Intent(this, Settings.class );
+            i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+            startActivity(i);
 
         } else if (id == R.id.menuLogin) {
 
