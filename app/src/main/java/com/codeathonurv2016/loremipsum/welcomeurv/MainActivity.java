@@ -88,7 +88,7 @@ public class MainActivity extends AppCompatActivity
 
 
         } else if (id == R.id.menuSchedule) {
-
+            startActivity(new Intent(this,Schedule.class));
         } else if (id == R.id.menuContacts) {
             Intent i = new Intent(this, Contacts.class );
             i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
@@ -97,6 +97,14 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.menuVolunteers) {
 
         } else if (id == R.id.menuMoodle) {
+            Intent i = new Intent(this, Browser.class );
+            i.putExtra("url", "http://moodle.urv.cat/moodle/");
+            startActivity(i);
+
+        } else if (id == R.id.menuMoute) {
+            Intent i = new Intent(this, Browser.class );
+            i.putExtra("url", "http://mou-te.gencat.cat");
+            startActivity(i);
 
         } else if (id == R.id.menuSettings) {
             Intent i = new Intent(this, Settings.class );
