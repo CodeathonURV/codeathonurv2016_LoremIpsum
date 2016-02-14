@@ -1,5 +1,6 @@
 package com.codeathonurv2016.loremipsum.welcomeurv;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -71,17 +72,33 @@ public class Volunteers extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_camera) {
+        if (id == R.id.menuMaps) {
             // Handle the camera action
-        } else if (id == R.id.nav_gallery) {
+        } else if (id == R.id.menuTution) {
+            Intent i = new Intent(this, MapsActivity.class );
+            i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+            startActivity(i);
 
-        } else if (id == R.id.nav_slideshow) {
+        } else if (id == R.id.menuNews) {
 
-        } else if (id == R.id.nav_manage) {
 
-        } else if (id == R.id.nav_share) {
+        } else if (id == R.id.menuSchedule) {
 
-        } else if (id == R.id.nav_send) {
+        } else if (id == R.id.menuContacts) {
+            Intent i = new Intent(this, Contacts.class );
+            i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+            startActivity(i);
+
+        } else if (id == R.id.menuVolunteers) {
+
+        } else if (id == R.id.menuMoodle) {
+
+        } else if (id == R.id.menuSettings) {
+            Intent i = new Intent(this, Settings.class );
+            i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+            startActivity(i);
+
+        } else if (id == R.id.menuLogin) {
 
         }
 
