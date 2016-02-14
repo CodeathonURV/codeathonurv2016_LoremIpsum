@@ -83,9 +83,11 @@ public class FormWelcome extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.menuMaps) {
-            // Handle the camera action
-        } else if (id == R.id.menuTution) {
             Intent i = new Intent(this, MapsActivity.class );
+            i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+            startActivity(i);
+        } else if (id == R.id.menuTution) {
+            Intent i = new Intent(this, Tution.class );
             i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
             startActivity(i);
 
