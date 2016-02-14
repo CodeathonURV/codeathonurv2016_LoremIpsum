@@ -42,6 +42,7 @@
     <string name="matricula3">A colour passport shape photograph of you.</string>
     <string name="matricula4">Learning agreement with the subjects you wish to study in the URV, signed by you and signed and stamped by your home university.  In the case you were coming under Erasmus Training programme, you should use the model of training agreement.</string>
     <string name="matricula5">Academic transcript of records.</string>
+    <string name="title_activity_schedule">Schedule</string>
 
 
 </resources>
