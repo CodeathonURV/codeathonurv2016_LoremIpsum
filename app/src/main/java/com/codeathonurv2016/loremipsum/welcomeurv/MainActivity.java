@@ -1,6 +1,8 @@
 package com.codeathonurv2016.loremipsum.welcomeurv;
 
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -16,7 +18,7 @@ import android.view.MenuItem;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
-
+    static SharedPreferences sharedPref;
     public static AlmacenEventos eventos= new AlmacenEventosArray();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,9 +37,16 @@ public class MainActivity extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
-        Intent i = new Intent(this, FormWelcome.class );
-        i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-        startActivity(i);
+
+
+        sharedPref = this.getPreferences(Context.MODE_PRIVATE);
+
+        if(sharedPref.getBoolean("primera",true)) {
+            Intent i = new Intent(this, FormWelcome.class);
+            i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+            startActivity(i);
+        }
+
     }
 
     @Override

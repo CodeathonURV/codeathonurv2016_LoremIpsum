@@ -1,6 +1,7 @@
 package com.codeathonurv2016.loremipsum.welcomeurv;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -159,6 +160,10 @@ public class FormWelcome extends AppCompatActivity
         spinner.setAdapter(adapter);
     }
     public void ignore(View view){
+
+        SharedPreferences.Editor editor = MainActivity.sharedPref.edit();
+        editor.putBoolean("primera",false);
+        editor.commit();
         finish();
     }
     public void botoinfo(View view){

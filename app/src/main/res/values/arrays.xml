@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="campus">
+
         <item>Campus Sescelades</item>
         <item>Campus Catalunya</item>
         <item>Campus Bellisens</item>
@@ -9,9 +10,10 @@
         <item>Not sure</item>
         <item>ETSE</item>
         <item>ETSEQ</item>
-        <item>Medicina</item>
-        <item>Enologia</item>
-    </string-array>
+        <item>Medicine</item>
+        <item>Oenology</item>
+        <item>Other</item>
+        </string-array>
     <string-array name="idiomes">
         <item>English</item>
         <item>German</item>
