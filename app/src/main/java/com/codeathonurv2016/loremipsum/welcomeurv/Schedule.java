@@ -1,5 +1,6 @@
 package com.codeathonurv2016.loremipsum.welcomeurv;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -73,17 +74,49 @@ public class Schedule extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_camera) {
-            // Handle the camera action
-        } else if (id == R.id.nav_gallery) {
+        if (id == R.id.menuMaps) {
+            startActivity(new Intent(this,MapsActivity.class));
+        } else if (id == R.id.menuTution) {
+            Intent i = new Intent(this, MapsActivity.class );
+            i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+            startActivity(i);
 
-        } else if (id == R.id.nav_slideshow) {
+        } else if (id == R.id.menuNews) {
 
-        } else if (id == R.id.nav_manage) {
 
-        } else if (id == R.id.nav_share) {
+        }else if (id == R.id.menuEvents) {
+            Intent i = new Intent(this, Events.class );
+            i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+            startActivity(i);
 
-        } else if (id == R.id.nav_send) {
+        } else if (id == R.id.menuSchedule) {
+            startActivity(new Intent(this,Schedule.class));
+        } else if (id == R.id.menuContacts) {
+            Intent i = new Intent(this, Contacts.class );
+            i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+            startActivity(i);
+
+        } else if (id == R.id.menuVolunteers) {
+            Intent i = new Intent(this, Volunteers.class );
+            i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+            startActivity(i);
+
+        } else if (id == R.id.menuMoodle) {
+            Intent i = new Intent(this, Browser.class );
+            i.putExtra("url", "http://moodle.urv.cat/moodle/");
+            startActivity(i);
+
+        } else if (id == R.id.menuMoute) {
+            Intent i = new Intent(this, Browser.class );
+            i.putExtra("url", "http://mou-te.gencat.cat");
+            startActivity(i);
+
+        } else if (id == R.id.menuSettings) {
+            Intent i = new Intent(this, Settings.class );
+            i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+            startActivity(i);
+
+        } else if (id == R.id.menuLogin) {
 
         }
 
