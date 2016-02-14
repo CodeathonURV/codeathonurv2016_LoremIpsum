@@ -20,7 +20,8 @@ import java.util.ArrayList;
 
 public class Volunteers extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
-
+    private ArrayList<String> text =new ArrayList<>();
+    ListView list;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -36,6 +37,9 @@ public class Volunteers extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+        list= (ListView)findViewById(R.id.listVolunteers);
+        ArrayAdapter<String> adapter = new ArrayAdapter<>(this,android.R.layout.simple_list_item_1, text);
+        list.setAdapter(adapter);
     }
 
     @Override
@@ -112,10 +116,7 @@ public class Volunteers extends AppCompatActivity
     }
     //mostra llista voluntaris
     public void llistaVoluntaris(View view){
-        ListView list= (ListView)findViewById(R.id.listMessage);
-        ArrayList<String> text =new ArrayList<>();
-        ArrayAdapter<String> adapter = new ArrayAdapter<>(this,android.R.layout.simple_list_item_1, text);
-        list.setAdapter(adapter);
+
         text.add("Joan");
         text.add("Marc");
     }

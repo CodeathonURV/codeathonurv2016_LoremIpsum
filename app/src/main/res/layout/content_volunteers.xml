@@ -54,13 +54,15 @@
         android:id="@+id/button4"
         android:layout_below="@+id/button3"
         android:layout_alignLeft="@+id/button3"
-        android:layout_alignStart="@+id/button3" />
+        android:layout_alignStart="@+id/button3"
+        android:onClick="llistaVoluntaris" />
 
     <ListView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/listView2"
+        android:id="@+id/listVolunteers"
         android:layout_below="@+id/button4"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:onClick="llistaVoluntaris" />
 </RelativeLayout>
