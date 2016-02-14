@@ -16,20 +16,20 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
-        android:text="Name"
         android:ems="10"
         android:id="@+id/editText6"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:hint="Name" />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/editText7"
-        android:text="Country"
         android:layout_below="@+id/editText6"
-        android:layout_alignParentLeft="true" />
+        android:layout_alignParentLeft="true"
+        android:hint="Observations" />
 
     <Spinner
         android:layout_width="match_parent"
@@ -38,4 +38,12 @@
         android:layout_below="@+id/editText7"
         android:layout_centerHorizontal="true"
         android:entries="@array/idiomes" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/submit"
+        android:id="@+id/button3"
+        android:layout_below="@+id/spinner3"
+        android:layout_centerHorizontal="true" />
 </RelativeLayout>
