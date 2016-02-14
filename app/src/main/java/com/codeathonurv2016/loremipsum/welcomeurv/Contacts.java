@@ -42,9 +42,10 @@ public class Contacts extends AppCompatActivity
         lv.setTextFilterEnabled(true);
         lv.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                @SuppressWarnings("unchecked")
-                MainActivity canviFinestra=new MainActivity();
-                canviFinestra.lanzarMensajeria(view);
+                Intent intent=new Intent(getApplication(),Mensajeria.class);
+                intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                startActivity(intent);
+
             }
         });
     }
