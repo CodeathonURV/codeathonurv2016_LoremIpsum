@@ -96,6 +96,14 @@
         <activity
             android:name=".Volunteers"
             android:label="@string/title_activity_volunteers"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Tution"
+            android:label="@string/title_activity_tution"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".useful_Information"
+            android:label="@string/title_activity_useful__information"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
